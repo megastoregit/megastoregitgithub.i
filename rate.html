@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="feadback.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</head>
+<body> 
+<div class="fontl">
+      <h1> rate us..</h1>
+
+     
+    <div class="container">
+        <div class="post">
+            <div class="text">Thank you for rating us!</div>
+            <div class="edit">EDIT</div>
+        </div>
+        <div class="star-widget">
+            <input type="radio" name="rate" id="rate-5">
+            <label for="rate-5" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-4">
+            <label for="rate-4" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-3">
+            <label for="rate-3" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-2">
+            <label for="rate-2" class="fa fa-star"></label>
+            <input type="radio" name="rate" id="rate-1">
+            <label for="rate-1" class="fa fa-star"></label>
+            <form action="#">
+                <div class="font">
+                <header></header>
+            </div>
+            <div class="textarea">
+                    <textarea cols="30" placeholder="describe your experience..."></textarea>
+                </div> 
+                <div class="btn">
+                    <button type="submit">send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        alert("thank you for trusting us.");
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick =( )=>{
+            widget.style.display="none";
+            post.style.display="block";
+            return
+        }
+    </script>
+</body>
+</html>
